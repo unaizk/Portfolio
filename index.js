@@ -77,11 +77,12 @@ $("#submit-form").submit((e)=>{
             success:function (response){
                 swal({
                     title: "Success",
-                    text: "Form submitted successfully",
+                    text: "Thank you for reaching out. I will promptly respond to your message. For more immediate communication, please connect with me on LinkedIn.",
                     icon: "success",
                     buttonsStyling: false,
                     customClass: {
-                        confirmButton: "btn-custom" 
+                        confirmButton: "btn-custom",
+                        content: "text-center" // Center the content
                     },
                     confirmButtonText: "OK",
                     confirmButtonColor: "#ff004f", // Set the color directly
